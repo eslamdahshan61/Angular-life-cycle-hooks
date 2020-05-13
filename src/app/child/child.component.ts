@@ -48,7 +48,7 @@ export class ChildComponent implements OnInit,OnChanges,DoCheck,AfterContentInit
   }
   ngAfterViewChecked(){
     console.log("Value executed - (ngAfterViewChecked)")
-    alert("hi");
+    /* alert("hi"); */
   }
   ngOnDestroy(){
     console.log("Component has been destroyed - (ngOnDestroy)")
